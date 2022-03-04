@@ -1,0 +1,65 @@
+
+/* iPhone Styles */
+@media screen and (max-width: 600px) {
+    body{
+        background-color: beige;
+    }
+
+    #header{
+        text-align: center;
+    }
+
+    #articles{
+        display: flex;
+        flex-direction: column;
+        margin: 3vw;
+    }
+
+    #article {
+        margin: 2vw;
+        padding: 2vw;
+        border-style: solid ;
+    }
+
+    #article_title {
+        text-align:center;
+    }
+
+    #article_content {
+        text-align:center;
+    }
+    
+}
+
+
+/* Computer Styles */
+@media screen and (min-width: 601px) {
+    body{
+        background-color: white;
+    }
+
+    #header{
+        text-align: center;
+    }
+
+    #articles{
+        display: flex;
+        flex-direction: row;
+        margin:3vw;
+    }
+
+    #article {
+        margin: 2vw;
+        padding: 2vw;
+        border-style: solid ;
+    }
+
+    #article_title {
+        text-align:left;
+    }
+    
+    #article_content {
+        text-align:left;
+    }
+    
+}
