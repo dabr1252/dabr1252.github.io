@@ -1,0 +1,102 @@
+
+/* iPhone Styles */
+@media screen and (max-width: 600px) {
+    body{
+        background-color: white;
+        height: 100vh;
+    }
+
+    #sign{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .option{
+        font-size: 18px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+    #home_title{
+        padding-top: 20vh;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    
+}
+
+
+/* Computer Styles */
+@media screen and (min-width: 601px) {
+    body{
+        background-color: white;
+        height: 100vh;
+    }
+
+    #sign{
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .option{
+        font-size: 24px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+
+    #home_title{
+        height: 75%;
+        font-size: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    
+}

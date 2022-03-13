@@ -1,0 +1,138 @@
+
+/* iPhone Styles */
+@media screen and (max-width: 600px) {
+    body{
+        background-color: white;
+    }
+
+    .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .option{
+        font-size: 18px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+    #title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #pictures{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pictures_content{
+        display: grid;
+        grid-template-columns: 20vw 20vw;
+        justify-content: center;
+        gap: 4vw;
+    }
+
+    #pictures_content > img{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #videos_content{
+        display: grid;
+        grid-template-columns: 40vw;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    #videos_content > img{
+        width: 40vw;
+        height: 20vw;
+    }
+    
+}
+
+
+/* Computer Styles */
+@media screen and (min-width: 601px) {
+    body{
+        background-color: white;
+    }
+
+    .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .option{
+        font-size: 24px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+    #title{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #pictures{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pictures_content{
+        display: grid;
+        grid-template-columns: 10vw 10vw;
+        justify-content: center;
+        gap: 4vw;
+    }
+
+    #pictures_content > img{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #videos_content{
+        display: grid;
+        grid-template-columns: 30vw 30vw;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    #videos_content > img{
+        width: 30vw;
+        height: 10vw;
+    }
+
+    
+}

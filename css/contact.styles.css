@@ -1,0 +1,198 @@
+
+/* iPhone Styles */
+@media screen and (max-width: 600px) {
+    body{
+        background-color: white;
+        height: 100vh;
+    }
+
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .option{
+        font-size: 18px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+    #title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #content{
+        padding-top: 10vw;
+        display: grid;
+        justify-content: center;
+    }
+
+    #contact_info{
+        align-items: center;
+        padding-left: 5vw;
+    }
+
+    #form_name{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 3vw;
+    }
+
+    .form_input{
+        padding-top:5vw;
+    }
+
+    input[type=text]{
+        background-color: #e3e1e1;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    input[type=text-area]{
+        background-color: #e3e1e1;
+        width: 100%;
+        height: 10vw;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+        resize:none;
+    }
+
+    button{
+        background-color: white;
+        color: black;
+        border: 2px solid #080808;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    form{
+        padding: 2vw;
+    }
+    
+}
+
+
+/* Computer Styles */
+@media screen and (min-width: 601px) {
+    body{
+        background-color: white;
+        height: 100vh;
+    }
+
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .option{
+        font-size: 24px;
+        padding: 2vw;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+    #title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #content{
+        padding-top: 10vw;
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        justify-content: center;
+    }
+
+    #contact_info{
+        align-items: center;
+    }
+
+    #form_name{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2vw;
+    }
+
+    .form_input{
+        padding-top:2vw;
+    }
+
+    input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=text-area]{
+        width: 100%;
+        margin: 8px 0;
+        height: 5vw;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize:none;
+    }
+
+    button{
+        background-color: white;
+        color: black;
+        border: 2px solid #1a1a1a;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+}
